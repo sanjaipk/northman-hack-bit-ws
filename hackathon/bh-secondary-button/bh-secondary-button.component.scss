@@ -1,0 +1,166 @@
+$light-blue: #eef5fa; // Figma Name: Light Teal
+$teal: #277489; // BH Link Blue
+
+$teal-light: #d6e7ec;
+$teal-dark: #2F677C;
+$teal-blue: #10637C;
+$dark-blue: #1a475f; // BH Blue
+$dark-blue-washed: #254e64;
+$dark-blue-washed-dark: #2A5A74;
+$dark-blue-transparent: #1a475fe0;
+$dark-blue-very-transparent: #1a475f5c;
+$darker-blue: #0f3549;
+$washed-blue: #446175;
+$sky-blue: #95d7e5;
+$waterpark: #54AFCB;
+
+$orange: #f2a900; // gold
+$light-orange: #f0bd1b;
+
+$very-light-gray: #b7bec1;
+$very-light-gray-2: #e2e5e6;
+$very-light-gray-3: #d8dfe3;
+$very-light-gray-transparent: #b7bec1aa;
+$very-light-gray-transparent-2: #b7bec166;
+$very-light-gray-transparent-3: #b7bec11a;
+$very-light-gray-transparent-4: #00000026;
+$gray-transparent: #6d6d6d66;
+$light-gray: #6d6d6d;
+$light-gray-3: #c4c4c4;
+$light-gray-4: #ebedf3;
+$light-gray-5: #979797;
+$light-gray-6: #b4b4b4;
+$light-gray-7: #707070;
+$medium-gray: #505050;
+$stormshadow: #8c8c8c;
+$gray: #424242;
+$light-gray-1: #d3d3d3;
+$light-gray-2: #f3f3f3;
+$light-gray-3: #bbbfc2;
+$light-gray-4: #D8E0E3;
+$nimbus: #C8C8C8;
+$dark-gray: #3a3a3a;
+$darker-gray: #212121;
+$charcoal: #333333;
+$charcoal-transparent: #33333340;
+
+$fire-ant: #d21111;
+$light-red: #fef1f1;
+
+$black: #000000;
+$off-white: #fafafa;
+$white: #ffffff;
+$white-transparent: rgba(255, 255, 255, 0.3);
+$fire-ant-light: #fff1f2;
+$dark-white: #EADFE3;
+
+$turquoise: #54afcb;
+$wildflower: #5B3570;
+
+$green: #09724a;
+$green-faded: #09724ae3;
+$light-green: #d5eae9;
+$light-green-2: #c9dce1;
+$light-green-faded: #adcec5b6;
+$faded-black: #00000031;
+$thin-black: #f5f5f5;
+
+$alpha-gray: #00000059;
+$alpha-darker: #00000026;
+$alpha-bit-darker: #0000000d;
+$alpha-lighter: #ffffff26;
+$alpha-bit-lighter: #ffffff0d;
+$alpha-overlay: #000000cc;
+
+$obsidian: #141823;
+$blue-blend: #1F5970;
+
+$wildflower: #5B3570;
+$lavender: #816AA4;
+
+// following colors from FC form module.
+$fc-chkBox-border:rgba(0, 0, 0, 0.15);
+$fc-chkbox-mat-border: grey;
+$fc-inhome-border: rgba(0, 0, 0, 0.20);
+$fc-accordian-border: rgba(0, 0, 0, 0.04);
+$fc-image: #048956;
+$fc-bh-blue:#1A475F;
+
+$seach-icon:#717171;
+
+$dark-maroon:#650028;
+
+$dreamscape: #EEEDED;
+$soap: #DBCFEE;
+
+// Dashboard Panes colors
+$hot-pink: #B11F59;
+$tiger: #dc6f1f;
+$fuchsia: #EADFE3;
+$police-blue: #325361;
+$dashboard-light-gray: #D8E0E3;
+$dashboard-waterpark: #54AFCB;
+$dashboard-teal-light: #d6e7ec;
+
+
+:host {
+  font-size: inherit;
+}
+
+:host {
+  font-size: inherit;
+}
+
+.btn-orange,
+.mat-button.btn-orange {
+  height: 36px;
+  border-radius: 4px;
+  background-color: $orange;
+  cursor: pointer;
+  border: none;
+  outline: 0;
+}
+.btn-orange:hover:not(.mat-button-disabled),
+.btn-orange:active:not(.mat-button-disabled) {
+  background-color: $light-orange;
+}
+.btn-orange.mat-button-disabled {
+  background-color: $orange;
+}
+.btn-orange:focus,
+.mat-button.btn-orange:focus {
+  background-color: $orange;
+}
+.btn-orange-label {
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: $charcoal;
+  text-decoration: none;
+  line-height: 1.8;
+}
+
+.mat-button.btn-orange:hover:not(.mat-button-disabled) {
+  background: $light-orange;
+}
+.mat-button.btn-orange:hover .mat-button-focus-overlay,
+.mat-button.btn-orange:focus .mat-button-focus-overlay {
+  opacity: 0 !important;
+}
+
+.btn-large,
+.mat-button.btn-large {
+  width: 190px;
+  height: 57px;
+}
+
+.btn-large-label {
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 57px;
+}
+
+.btn-large--full-width {
+  width: 100%;
+} 
